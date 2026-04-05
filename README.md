@@ -1,6 +1,6 @@
 # Quant Opportunity Tracker (MVP)
 
-This bot checks a list of finance/trading firm pages for **quant/trading/research internships, student programs, and early-career events**, then alerts a Discord channel only for **new** high-signal matches.
+This bot checks a list of finance/trading firm pages for quant/trading/research internships, student programs, and early-career events, then alerts a Discord channel only for new high-signal matches.
 
 ## What The Bot Does
 - Loads monitored firm URLs from `config.py`.
@@ -46,7 +46,7 @@ DRY_RUN=false
 ```
 
 ### DRY_RUN behavior
-- `DRY_RUN=true`: the bot prints the exact Discord message it **would** send and does not post.
+- `DRY_RUN=true`: the bot prints the exact Discord message it would send and does not post.
 - `DRY_RUN=false`: the bot posts to the webhook normally.
 
 ## Run
@@ -82,7 +82,7 @@ echo "[]" > seen.json
 Example: run every day at 8:00 AM
 
 ```cron
-0 8 * * * cd /Users/emmetsurmeli/Desktop/quant_tracker && /usr/bin/python3 main.py >> bot.log 2>&1
+0 8 * * * cd /Users/YOUR_USER/FOLDER/quant_tracker && /usr/bin/python3 main.py >> bot.log 2>&1
 ```
 
 ## Tuning
