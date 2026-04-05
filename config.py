@@ -1,5 +1,7 @@
 """Configuration for the quant opportunity tracker bot."""
 
+MAX_ALERTS_PER_RUN = 10
+FILTER_SCORE_THRESHOLD = 3
 MONITORED_SITES = [
     {"firm": "Belvedere Trading", "source": "Careers", "url": "https://jobs.lever.co/belvederetrading?commitment=Intern"},
     {"firm": "Flow Traders", "source": "Careers", "url": "https://www.flowtraders.com/careers/job-search"},
