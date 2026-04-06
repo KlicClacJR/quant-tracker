@@ -2,6 +2,7 @@
 
 MAX_ALERTS_PER_RUN = 10
 FILTER_SCORE_THRESHOLD = 3
+
 MONITORED_SITES = [
     {"firm": "Belvedere Trading", "source": "Careers", "url": "https://jobs.lever.co/belvederetrading?commitment=Intern"},
     {"firm": "Flow Traders", "source": "Careers", "url": "https://www.flowtraders.com/careers/job-search"},
@@ -151,6 +152,98 @@ STUDENT_OVERRIDE_TERMS = [
     "competition",
     "hackathon",
 ]
+
+QUANT_SIGNAL_TERMS = [
+    "quant",
+    "quantitative",
+    "trading",
+    "trader",
+    "research",
+    "researcher",
+    "strats",
+    "systematic",
+    "markets",
+    "alpha",
+    "portfolio",
+    "machine learning",
+    "data science",
+    "statistical arbitrage",
+    "volatility",
+]
+
+STUDENT_SIGNAL_TERMS = [
+    "intern",
+    "internship",
+    "student",
+    "undergraduate",
+    "new grad",
+    "early career",
+    "post-grad",
+]
+
+INTERNSHIP_SIGNAL_TERMS = [
+    "internship",
+    "intern",
+    "summer",
+    "analyst",
+    "associate",
+]
+
+PROGRAM_EVENT_SIGNAL_TERMS = [
+    "program",
+    "summit",
+    "event",
+    "hackathon",
+    "competition",
+    "insight",
+    "immersion",
+    "discovery",
+]
+
+TARGET_ROLE_PHRASES = [
+    "quant",
+    "quantitative researcher",
+    "trading",
+    "systematic trading",
+    "machine learning engineer",
+    "data scientist",
+    "portfolio analyst",
+    "research analyst",
+]
+
+TARGET_PROGRAM_EVENT_PHRASES = [
+    "internship program",
+    "summer program",
+    "trading event",
+    "tech summit",
+    "insight program",
+    "immersion program",
+    "student event",
+]
+
+GENERIC_TECH_TERMS = [
+    "software engineer",
+    "frontend",
+    "backend",
+    "devops",
+    "infrastructure",
+    "database engineer",
+    "systems engineer",
+]
+
+GENERIC_UNRELATED_TERMS = [
+    "hr",
+    "human resources",
+    "recruitment",
+    "admin",
+    "legal",
+    "compliance",
+    "tax",
+    "accounting",
+    "finance",
+]
+
+SNIPPET_MAX_CHARS = 250
 
 REQUEST_TIMEOUT_SECONDS = 20
 USER_AGENT = (
